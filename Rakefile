@@ -17,6 +17,7 @@ task build: LIB_JAR
 
 task :clean do
   mvn "clean"
+  rm "lib/msword.jar"
 end
 
 require "bundler/gem_tasks"

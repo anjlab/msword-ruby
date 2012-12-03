@@ -1,6 +1,6 @@
-# Msword
+# MSWord
 
-TODO: Write a gem description
+Simple work with MS Word docs
 
 ## Installation
 
@@ -18,7 +18,16 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Right now this gem supports only **find and replace** command.
+
+```ruby
+require 'msword'
+
+MSWord.replace 'src.doc', 'dest.doc', [
+  ['hello', 'bye'], ['#{date}', Time.now.to_s]
+]
+
+```
 
 ## Contributing
 
