@@ -1,0 +1,3 @@
+[submodule "vendor/msword-java"]
+	path = vendor/msword-java
+	url = https://github.com/anjlab/msword-java.git
